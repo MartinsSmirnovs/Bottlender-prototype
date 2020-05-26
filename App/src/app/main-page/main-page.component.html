@@ -1,0 +1,23 @@
+<ns-side-drawer>
+    <StackLayout class="m-10">
+        <Label class="h2" text="Auto"></Label>
+        <Label [text]="botString"></Label>
+    </StackLayout>
+
+
+
+    <StackLayout class="hr m-10"></StackLayout>
+
+    <StackLayout class="m-l-10 m-y-0">
+        <Label class="h2" text="Manual"></Label>
+    </StackLayout>
+    <ns-slider [compId]="0"></ns-slider>
+
+    <!--slider inputs-->
+    <ns-slider [compId]="1"></ns-slider>
+
+    <Button text="FIRE!" class="-primary" (tap)="sendFire()"></Button>
+    <Button text="Reload"  (tap)="sendReload()"></Button>
+    <!--fire button-->
+
+</ns-side-drawer>

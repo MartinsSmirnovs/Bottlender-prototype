@@ -1,0 +1,31 @@
+<RadSideDrawer showOverNavigation="true" >
+    <GridLayout tkDrawerContent class="sideStackLayout" >
+        <ScrollView row="1">
+            <StackLayout class="sideStackLayout">
+                <Label text="Home" class="h3 m-l-20 m-t-10" (tap)="navigate(0);"></Label>
+                <StackLayout class="hr" ></StackLayout>
+                <Label text="Bluetooth" class="h3 m-l-20" (tap)="navigate(1)"></Label>
+                <StackLayout class="hr"></StackLayout>
+                <Label text="Data" class="h3 m-l-20" (tap)="navigate(2)"></Label>
+                <StackLayout class="hr"></StackLayout>
+                <Label text="Input" class="h3 m-l-20" (tap)="navigate(3)"></Label>
+                <StackLayout class="hr"></StackLayout>
+                <Label text="About" class="h3 m-l-20" (tap)="navigate(4)"></Label>
+                <StackLayout class="hr"></StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </GridLayout>
+    <StackLayout tkMainContent>
+
+        <ActionBar [title]="pageNames[pageCounter]" >
+            <NavigationButton icon="res://menu" (tap)="openDrawer()"></NavigationButton>
+        </ActionBar>
+
+        <ng-content></ng-content><!--DISPLAYS ALL OTHER COMPONENTS CONTENT INSIDE THESE TAGS-->
+
+    </StackLayout>
+</RadSideDrawer>
+
+
+
+

@@ -1,0 +1,11 @@
+<ns-side-drawer>
+    <Label text="Input how many bottles you have loaded: " class="m-l-10 m-t-10"></Label> <!-- Bottle input -->
+    <TextField hint="Bottles" width="200" horizontalAlignment="left" [(ngModel)]="_bottIn"></TextField>
+    <Button text="Save" class="-primary" height="45" (tap)="saveBottles()"></Button>
+
+    <StackLayout class="hr m-10"></StackLayout>
+
+    <Label text="Input width (m) using '.' to divide decimals: " class="m-l-10"></Label> <!-- Width input -->
+    <TextField hint="(m)" width="200" horizontalAlignment="left" [(ngModel)]="_widthIn"></TextField>
+    <Button text="Save" class="-primary" height="45" (tap)="saveWidth()"></Button>
+</ns-side-drawer>

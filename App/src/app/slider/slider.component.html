@@ -1,0 +1,12 @@
+<StackLayout>
+    <!--Label-->
+    <StackLayout class="m-l-10 m-y-0">
+        <Label [text]="slider[compId].name + ': ' + slider[compId].value"></Label>
+    </StackLayout>
+    <!--Actual slider-->
+    <Slider minValue="0" [maxValue]="slider[compId].maxValue" [value]="slider[compId].value"
+        (valueChange)="this.sliderInput($event)">
+    </Slider>
+
+
+</StackLayout>

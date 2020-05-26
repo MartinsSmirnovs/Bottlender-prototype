@@ -1,0 +1,13 @@
+/* Add mobile styles for the component here.  */
+.vertAlignText {
+    width: 60;
+    height: 30;
+    text-align:center;
+    padding: 5;
+    font-size: 14;
+}
+
+.connectButton{
+    width: 150;
+    height: 50;
+}
