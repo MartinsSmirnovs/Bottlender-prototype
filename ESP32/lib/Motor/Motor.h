@@ -2,7 +2,7 @@
 #include <Arduino.h>
         class Motor{
             public:
-                Motor(int stepsPerRevolution, byte stepPin, byte dirPin, int multiplier);
+                Motor(int stepsPerRevolution, byte stepPin, byte dirPin, int step);
                 Motor(){};
                 void setup();
                 void loop();
