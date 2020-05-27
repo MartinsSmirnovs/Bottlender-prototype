@@ -1,5 +1,15 @@
 # Bottlender prototype
 # Table of contents
+- [Usage](https://github.com/Onii-Chaan/Bottlender-prototype#usage)
+- [Libraries used](https://github.com/Onii-Chaan/Bottlender-prototype#libraries-used)
+  - [Bluetooth.h](https://github.com/Onii-Chaan/Bottlender-prototype#bluetoothh)
+  - [Motor.h](https://github.com/Onii-Chaan/Bottlender-prototype#motorh)
+  - [Switch.h](https://github.com/Onii-Chaan/Bottlender-prototype#switchh)
+  - [Other libraries](https://github.com/Onii-Chaan/Bottlender-prototype#other-libraries)
+- [Setup](https://github.com/Onii-Chaan/Bottlender-prototype#setup)
+    - [ESP32](https://github.com/Onii-Chaan/Bottlender-prototype#esp32)
+    - [Android](https://github.com/Onii-Chaan/Bottlender-prototype#android)
+- [Circuit & result](https://github.com/Onii-Chaan/Bottlender-prototype#circuit--result)
 
 # Usage
 THIS IS PROTOTYPE!
