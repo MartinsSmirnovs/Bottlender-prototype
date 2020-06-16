@@ -64,7 +64,10 @@ This repository contains code part only, not a whole build
 PlatformIO was used to upload and setup the code, put lib and src folders into corresponding places and it should work. 
 
 ## Android
-Nativescript and Angular were used to make this app. Put the components and other files into corresponding places and it should work. 
+Nativescript and Angular were used to make this app. Put the components and other files into corresponding places.
+
+Install Nativescript Bluetooth plugin and RadSideDrawer plugin!!
+
 To make connection with hardware go to Bluetooth page and wait for connection, if it doesn't work, press connect. After connection go to input and input how many ammunition you put in cannon. After that you can go to main page and control the turret. Hardware doesn't take two equal input, so you can't shoot twice and must reload after every time.
 
 # Circuit & result
